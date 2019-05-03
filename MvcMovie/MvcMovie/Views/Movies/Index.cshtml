@@ -1,18 +1,25 @@
 ﻿@model IEnumerable<MvcMovie.Models.Movie>
 
 @{
-    ViewBag.Title = "Index";
+    ViewBag.Title = "Indice";
 }
 
-<h2>Index</h2>
+<h2>Indice</h2>
 
 <p>
-    @Html.ActionLink("Create New", "Create")
+    @Html.ActionLink("Nueva pelicula", "Create")
+    @using (Html.BeginForm("Index", "Movies", FormMethod.Get))
+    {
+        <p>
+            Genero: @Html.DropDownList("movieGenre", "Todo")
+            Titulo: @Html.TextBox("SearchString")<br />
+            <input type="submit" value="Filtrar" /></p>
+    }
 </p>
 <table class="table">
     <tr>
         <th>
-            @Html.DisplayNameFor(model => model.Tittle)
+            @Html.DisplayNameFor(model => model.Title)
         </th>
         <th>
             @Html.DisplayNameFor(model => model.ReleaseDate)
@@ -29,7 +36,7 @@
 @foreach (var item in Model) {
     <tr>
         <td>
-            @Html.DisplayFor(modelItem => item.Tittle)
+            @Html.DisplayFor(modelItem => item.Title)
         </td>
         <td>
             @Html.DisplayFor(modelItem => item.ReleaseDate)
@@ -41,9 +48,9 @@
             @Html.DisplayFor(modelItem => item.price)
         </td>
         <td>
-            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
-            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
-            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+            @Html.ActionLink("Editar", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Detalles", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Deletear", "Delete", new { id=item.ID })
         </td>
     </tr>
 }

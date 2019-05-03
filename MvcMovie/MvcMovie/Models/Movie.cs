@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
 namespace MvcMovie.Models
@@ -6,10 +7,15 @@ namespace MvcMovie.Models
     public class Movie
     {
         public int ID { get; set; }
-        public string Tittle { get; set; }
+        public string Title { get; set; }
+
+        [Display(Name = "Fecha")]
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:dd-MM-yyyy}", ApplyFormatInEditMode = true)]
         public DateTime ReleaseDate { get; set; }
         public string genre { get; set; }
         public decimal price { get; set; }
+        public string rating { get; set; }
 
     }
 
