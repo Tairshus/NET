@@ -182,3 +182,5 @@ C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.dll
 C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.pdb
 C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.Migrations.Inicial.resources
 C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.csproj.GenerateResource.cache
+C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.Migrations.rating.resources
+C:\Users\E2EE490\Desktop\NET\MvcMovie\MvcMovie\obj\Debug\MvcMovie.Migrations.Jabali.resources

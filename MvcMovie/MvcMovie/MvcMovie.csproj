@@ -142,6 +142,14 @@
     <Compile Include="Migrations\201905031918417_Inicial.Designer.cs">
       <DependentUpon>201905031918417_Inicial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201905061337387_rating.cs" />
+    <Compile Include="Migrations\201905061337387_rating.Designer.cs">
+      <DependentUpon>201905061337387_rating.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201905061409404_Jabali.cs" />
+    <Compile Include="Migrations\201905061409404_Jabali.Designer.cs">
+      <DependentUpon>201905061409404_Jabali.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\Movie.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -222,6 +230,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201905031918417_Inicial.resx">
       <DependentUpon>201905031918417_Inicial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905061337387_rating.resx">
+      <DependentUpon>201905061337387_rating.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201905061409404_Jabali.resx">
+      <DependentUpon>201905061409404_Jabali.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

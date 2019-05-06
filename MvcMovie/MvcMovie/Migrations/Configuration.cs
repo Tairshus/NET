@@ -22,6 +22,7 @@ namespace MvcMovie.Migrations
                     Title = "Cazafantasmas",
                     ReleaseDate = DateTime.Parse("11-1-1989"),
                     genre = "Comedia",
+                    rating = "PG",
                     price = 8.99M
                 },
                 new Movie
@@ -29,6 +30,7 @@ namespace MvcMovie.Migrations
                     Title = "Algo",
                     ReleaseDate = DateTime.Parse("21-03-2007"),
                     genre = "Suspenso",
+                    rating = "PG",
                     price = 24.97M
                 },
                 new Movie
@@ -36,6 +38,7 @@ namespace MvcMovie.Migrations
                     Title = "Rio Bravo",
                     ReleaseDate = DateTime.Parse("15-4-1959"),
                     genre = "Vaqueros",
+                    rating = "PG",
                     price = 3.99M
                 }
             );
