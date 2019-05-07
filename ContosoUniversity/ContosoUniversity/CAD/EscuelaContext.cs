@@ -19,5 +19,6 @@ namespace ContosoUniversity.CAD
         {
             modelBuilder.Conventions.Remove<PluralizingTableNameConvention>();
         }
+        //<parameter value="mssqllocaldb" />
     }
 }

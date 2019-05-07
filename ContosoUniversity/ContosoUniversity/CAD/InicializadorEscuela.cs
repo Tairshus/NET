@@ -13,13 +13,13 @@ namespace ContosoUniversity.CAD
         {
             var estudiantes = new List<Estudiante>
             {
-                new Estudiante{nombre="Catalina", apellido="Sandoval", fechaInscripcion=DateTime.Parse("17-04-2007")},
+                new Estudiante{nombre="Catalina", apellido="Sandoval", fechaInscripcion=DateTime.Parse("17-04-2006")},
                 new Estudiante{nombre="Luisa", apellido="Mendes", fechaInscripcion=DateTime.Parse("15-03-2002")},
-                new Estudiante{nombre="Fernando", apellido="Villar", fechaInscripcion=DateTime.Parse("25-05-1999")},
+                new Estudiante{nombre="Fernando", apellido="Silva", fechaInscripcion=DateTime.Parse("25-05-1999")},
                 new Estudiante{nombre="Julian", apellido="Mc", fechaInscripcion=DateTime.Parse("13-06-1998")},
-                new Estudiante{nombre="Javier", apellido="Fal", fechaInscripcion=DateTime.Parse("08-10-1996")},
+                new Estudiante{nombre="Javier", apellido="Fainal", fechaInscripcion=DateTime.Parse("08-10-1996")},
                 new Estudiante{nombre="Pamela", apellido="Macedo", fechaInscripcion=DateTime.Parse("12-04-1998")},
-                new Estudiante{nombre="Franco", apellido="Arratia", fechaInscripcion=DateTime.Parse("20-07-2004")}
+                new Estudiante{nombre="Oriana", apellido="Cordoba", fechaInscripcion=DateTime.Parse("20-07-2004")}
             };
 
             estudiantes.ForEach(s => context.Estudiantes.Add(s));
@@ -32,7 +32,7 @@ namespace ContosoUniversity.CAD
                 new Curso{cursoID=604, titulo="Botanica", creditos=9},
                 new Curso{cursoID=1000, titulo="Mecanica", creditos=7},
                 new Curso{cursoID=404, titulo="Contabilidad", creditos=10},
-                new Curso{cursoID=89, titulo="Economia", creditos=2}
+                new Curso{cursoID=89, titulo="Psicologia", creditos=2}
             };
 
             cursos.ForEach(s => context.Cursos.Add(s));
@@ -49,9 +49,9 @@ namespace ContosoUniversity.CAD
                 new Inscripcion{estudianteID=4, cursoID=604, grado=Grado.A},
                 new Inscripcion{estudianteID=5, cursoID=1000},
                 new Inscripcion{estudianteID=6, cursoID=404, grado=Grado.A},
-                new Inscripcion{estudianteID=6, cursoID=89, grado=Grado.B},
+                new Inscripcion{estudianteID=6, cursoID=89, grado=Grado.D},
                 new Inscripcion{estudianteID=6, cursoID=2001},
-                new Inscripcion{estudianteID=7, cursoID=40}
+                new Inscripcion{estudianteID=7, cursoID=89}
             };
             inscripciones.ForEach(s => context.Inscripciones.Add(s));
             context.SaveChanges();
