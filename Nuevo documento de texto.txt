@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<!--<html lang="es-US"> para declarar idioma-->
+    <head>
+        <title>Pato</title>
+    </head>
+    <body style="background-color: black">
+
+        <!-- <h1>Mas importante</h1>
+        <h2>Muy importante</h2>
+        <h3>Poco importante</h3>
+        <h4>Muy Poco importante</h4>
+        <h5>Sin importancia importante</h5>
+        <h6>Basura >:v</h6> -->
+        
+        <!--Head con color y salto de linea-->
+        <center> <!--Alinea todo el texto dentro de CENTER-->
+            <!--font-size cambia el tamaño sin importar que h sea-->
+                <h1 style="font-size:30px; color:WHITE">
+                    Inserte titulo aqui
+                    <br>
+                    Y aqui tambien
+                </h1>
+        </center>
+        <hr> <!--hr crea una regla horizontal-->
+        <!--Parrafo y enlace con color-->
+            <p title="Sitio de prueba" style="color:antiquewhite">
+                Este es un sitio de prueba llamado
+                    <a href="https://www.youtube.com" style="color:gold"> Pato</a>
+                <br> <!--sirve para hacer salto de linea-->
+                La palabra te lleva a youtube, red por la cual conoci a alguien muy importante para mi hasta la fecha.
+            </p>
+            <!--<pre> Imprime el texto tal cual lo he escrito,
+                incluyendo sangria, generalmente se lanza en 
+                formato courier(fuente cambiada con font-family)-->
+            <pre style="color:aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"> 
+A continuacion se mostrara la
+imagen de un pato mandarin,
+simbolo relacionado a Patitos Pawa.
+            </pre>
+        <!--Imagen de un patito con dimensiones personalizadas Y un boton-->
+        <img title="patitos pawa"
+             src="https://www.nacion.com/resizer/YNC5dNzjLc3xvMOLyRldvY5QQlk=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/DTPAVDNOIBC2VMFHAKJHG4XMBQ.jpg"
+             alt="https://www.nacion.com/resizer/YNC5dNzjLc3xvMOLyRldvY5QQlk=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/DTPAVDNOIBC2VMFHAKJHG4XMBQ.jpg"
+             width="200" 
+             height="120">
+        <!-- <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> -->
+        <p style="font-size: 150%; color:#ff7400"> <cite>Patitos Pawa!</cite></p>
+        <p style="color:aliceblue">Se desconoce aun la fecha en que surgio <abbr title="Patitos Pawa">PP</abbr> ,tampoco se conoce los integrantes oficiales actuales</p>  
+        <button>Este boton no sirve</button>
+        <!--2 tipos de listas con color
+        El FONT afecta a todos los elementos dentro de el-->
+        <font color="WHITE">
+            <ol>
+                <li>Ordenada 1</li>
+                <li>Ordenada 2</li>
+                <li>Ordenada 3</li>
+            </ol>
+            <ul>
+                <li>Desordenada 1</li>
+                <li>Desordenada 2</li>
+                <li>Desordenada 3</li>
+            </ul>
+        </font>
+        <p style="color:cornsilk"> Texto abajo <sub>El queso es amarillo</sub> Texto arriba<sup>Mi ataud es el 5</sup></p>
+        <p style="color:cornsilk; text-align: center">
+            <b>Texto en negrita</b> <br>
+            <i>Texto en cursiva</i> <br>
+            <strong>Texto fuerte</strong> <br>
+            <em>Texto enfatizado</em> <br>
+            <mark>Texto marcado</mark> <br>
+            <small>Texto cuyas dimensiones presentan rasgos inferiores a los presentes en otros textos.</small> <br>
+            <del>Texto eliminado</del> <br>
+            <ins>Texto insertado(dice insertado pero veo que es subrayado)</ins>
+        </p>
+
+        <p style="color:floralwhite">
+            <bdo dir="rtl">No se que podria hacer con esto pero me interesa mucho este comando</bdo>
+        </p>
+        <address style="color:cornsilk">
+            Comando que sirve para marcar datos del autor. <br>
+            En este caso yo mero :v <br>
+            <ins>Informacion</ins> <br>
+            Pais: Argentina(por ahora) <br>
+            Email: alan_tintaya@hotmail.com <br>
+            Direccion: no voy a poner eso >:v <br>
+            ID: Tairshus
+        </address>
+    </body>
+
+</html>
