@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<!--<html lang="es-US"> para declarar idioma-->
+    <head>
+        <title>Pato</title>
+    </head>
+    <style>
+    table, th, td {
+        border: 1px solid cyan;
+    }
+    th, td{
+        padding: 10px;
+    }
+    table{
+        border-spacing: 2px;
+    }
+    table tr:nth-child(even) {
+        background-color: rgb(190, 17, 17);
+    }
+    table tr:nth-child(odd) {
+        background-color:rgba(190, 56, 32, 0.76);
+    }
+    table th {
+        background-color:rgb(9, 6, 158);
+        color: white;
+    }
+
+    ul#l01 {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333333;
+    }
+    li#l01 {
+    float: left;
+    }
+    li#l01 a {
+        display: white;
+        color: black;
+        text-align: center;
+        padding: 16px;
+        text-decoration: rgba(1, 4, 150, 0.884);
+    }
+    li#l01 a:hover {
+        background-color: #ffffffdc;
+    }
+    </style>
+    <body style="background-color:black">
+
+        <!-- <h1>Mas importante</h1>
+        <h2>Muy importante</h2>
+        <h3>Poco importante</h3>
+        <h4>Muy Poco importante</h4>
+        <h5>Sin importancia importante</h5>
+        <h6>Basura >:v</h6> -->
+        
+        <!--Head con color y salto de linea-->
+        <center> <!--Alinea todo el texto dentro de CENTER-->
+            <!--font-size cambia el tamaño sin importar que h sea-->
+                <h1 style="font-size:30px; color:WHITE">
+                    Inserte titulo aqui
+                    <br>
+                    Y aqui tambien
+                </h1>
+        </center>
+        <hr> <!--hr crea una regla horizontal-->
+
+        <ul id=l01>
+            <li id=l01><a href="#Continuar">Continuar</a></li>
+            <li id=l01><a href="#Finalizar">Finalizar</a></li>
+        </ul>
+        <!--Parrafo y enlace con color-->
+            <p title="Sitio de prueba" style="color:antiquewhite; border: 2px solid blue">
+                Este es un sitio de prueba llamado
+                    <a href="https://www.youtube.com" style="color:gold"> Pato</a>
+                <br> <!--sirve para hacer salto de linea-->
+                La palabra te lleva a youtube, red por la cual conoci a alguien muy importante para mi hasta la fecha.
+            </p>
+            <!--<pre> Imprime el texto tal cual lo he escrito,
+                incluyendo sangria, generalmente se lanza en 
+                formato courier(fuente cambiada con font-family)-->
+            <pre style="color:aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"> 
+A continuacion se mostrara la
+imagen de un pato mandarin,
+simbolo relacionado a Patitos Pawa.
+            </pre>
+        <!--Imagen de un patito con dimensiones personalizadas Y un boton-->
+        <img title="patitos pawa"
+             src="https://www.nacion.com/resizer/YNC5dNzjLc3xvMOLyRldvY5QQlk=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/DTPAVDNOIBC2VMFHAKJHG4XMBQ.jpg"
+             alt="https://www.nacion.com/resizer/YNC5dNzjLc3xvMOLyRldvY5QQlk=/600x0/center/middle/filters:quality(100)/arc-anglerfish-arc2-prod-gruponacion.s3.amazonaws.com/public/DTPAVDNOIBC2VMFHAKJHG4XMBQ.jpg"
+             width="200" 
+             height="120">
+        <!-- <img src="w3schools.jpg" alt="W3Schools.com" width="104" height="142"> -->
+        <p style="font-size: 150%; color:#ff7400"> <cite>Patitos Pawa!</cite></p>
+        <p style="color:aliceblue">Se desconoce aun la fecha en que surgio <abbr title="Patitos Pawa">PP</abbr> ,tampoco se conoce los integrantes oficiales actuales</p>  
+        <button>Funcionara al final</button>
+        <!--2 tipos de listas con color
+        El FONT afecta a todos los elementos dentro de el-->
+        <font color="WHITE">
+            <ol type="I">
+                <li>Ordenada 1</li>
+                <li>Ordenada 2</li>
+                <li>Ordenada 3</li>
+            </ol>
+            <ul>
+                <li>Desordenada 1</li>
+                <li>Desordenada 2</li>
+                <li>Desordenada 3</li>
+            </ul>
+        </font>
+        <p style="color:cornsilk"> Texto abajo <sub>Olvidar no es superar</sub> Texto arriba<sup>Mi ataud es el 5</sup></p>
+        <p style="color:cornsilk; text-align: center">
+            <b>Texto en negrita</b> <br>
+            <i>Texto en cursiva</i> <br>
+            <strong>Texto fuerte</strong> <br>
+            <em>Texto enfatizado</em> <br>
+            <mark>Texto marcado</mark> <br>
+            <small>Texto cuyas dimensiones presentan rasgos inferiores a los presentes en otros textos.</small> <br>
+            <del>Texto eliminado</del> <br>
+            <ins>Texto insertado(dice insertado pero veo que es subrayado)</ins>
+        </p>
+
+        <p style="color:floralwhite">
+            <bdo dir="rtl">Al final todo saldra bien, y si no sale bien es que no es el final</bdo>
+        </p>
+
+        <table style="color: whitesmoke; width: 100%">
+            <caption>Sucesos importantes(tanto buenos como malos)</caption>
+            <tr>
+                <th>Dia</th>
+                <th>Mes</th>
+                <th>Year</th>       
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>02</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>11</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td>02</td>
+                <td>08</td>
+                <td>2018</td>
+            </tr>
+            <tr>
+                <td>23</td>
+                <td>03</td>
+                <td>2019</td>
+            </tr>
+        </table>
+        <div style="background-color:rgb(20, 1, 1)">
+        <dl style="color:white">
+            <dt>Diciembre</dt>
+            <dd>Inicio, aun no puede ser considerado problema(apesar de los efectos)</dd>
+            <dt>Enero</dt>
+            <dd>Mayormente tranquilo, aun nada sucede(nada que me haga sentir perdido)</dd>
+            <dt>Febrero</dt>
+            <dd>Segundo problema y inicio del Tercero</dd>
+            <dt>Marzo</dt>
+            <dd>Segundo empeora y Tercero concluye de forma negativa</dd>
+            <dt>Abril</dt>
+            <dd>El inicio se convierte en primer problema</dd>
+            <dt>Mayo</dt>
+            <dd>Acabar o no acabar con el primer problema, esa es la cuestion</dd>
+
+        </dl>
+        </div>
+        <address style="color:cornsilk">
+            Comando que sirve para marcar datos del autor. <br>
+            En este caso yo mero :v <br>
+            <ins>Informacion</ins> <br>
+            Pais: Argentina(por ahora) <br>
+            Email: alan_tintaya@hotmail.com <br>
+            Direccion: no voy a poner eso >:v <br>
+            ID: Tairshus
+        </address>
+    </body>
+
+</html>
